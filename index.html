@@ -6,10 +6,257 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Media Queries -->
+    <link rel="stylesheet" href="media.css">
+    <!-- Custom font Oxygen -->
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet"> 
     <title>Angelica Yoga</title>
 </head>
 <body>
-    
+
+<!-- Header -->
+
+    <header class="hero-header">
+
+    <!-- Navigation -->
+
+        <nav class="navbar navbar-expand-md navbar-dark bg-transparent">
+            <a href="index.html" class="navbar-brand">
+                <svg id="logoIcon">
+                    <use xlink:href="Ressources/sprite_css.svg#icon-radio-checked2">
+                    </use>
+                </svg>
+                <span class="text-uppercase text-white thinText">
+                    Angelica Yoga
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active mr-1">
+                        <a href="index.html" class="nav-link">
+                            Accueil
+                        </a>
+                    </li>
+                    <li class="nav-item mr-1">
+                        <a href="tournee_2022.html" class="nav-link">
+                            Évènements
+                        </a>
+                    </li>
+                    <li class="nav-item mr-1">
+                        <a href="contact.html" class="nav-link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    <!-- Hero-->
+
+        <section class="text-center text-white">
+            <div class="txtHeader">   
+                <h1 class="text-uppercase font-weight-light mb-4">
+                    Angelica Yoga
+                </h1>
+                <h2 class="lead px-3 px-sm-5">
+                    Pratiquer l’Angelica Yoga, c’est entrer au coeur de soi-même… <br>
+                    C’est découvrir les multidimensions en soi… 
+                </h2>
+                <a class="yogaBtn btn text-light mt-5" href="tournee_2022.html">
+                    Découvrir
+                </a>
+            </div> 
+        </section>
+    </header>
+
+<!-- Partie principale-->
+
+    <main>
+        <!-- Présentation -->
+        <section class="container-lg topSection mb-lg-5">
+            <div class="row">
+                <div class="col-lg my-4 pt-lg-5">
+                    <h2 class="text-lg-center mb-5 mx-4 mx-lg-0">
+                        Qu'est-ce que l'Angelica Yoga ?
+                    </h2>
+                    <p class="mx-4 mx-lg-0">
+                        L’Angelica Yoga est un yoga qui associe une intention qualitative à un mouvement, afin de construire l’équilibre entre le corps et l’esprit.
+                    </p>
+                    <p class="mx-4 mx-lg-0">
+                        Il s’adresse à tous ceux qui souhaitent améliorer leur santé intérieure et extérieure.
+                    </p>
+                    <p class="mx-4 mx-lg-0">
+                        Ce yoga initiatique est focalisé sur notre capacité de recevoir des réponses personnelles et des enseignements via les rêves, les signes et le langage symbolique, ainsi que sur le développement équilibré de notre intelligence émotionnelle, intellectuelle et spirituelle.
+                    </p>
+                    <div class="d-flex justify-content-center">
+                        <a class="yogaBtn btn text-white my-5" href="http://videos.angelica.yoga">Voir en vidéo</a>
+                    </div>
+                </div>
+                
+                <div class="bgBienfaits col-lg m-lg-4 p-5">
+                    <h2 class="mt-3 mt-lg-0 mb-5 text-center">
+                        Ses bienfaits
+                    </h2>
+
+                    <ul class="list-unstyled">
+                        <li class="mb-3">
+                            <svg class="checkIcon">
+                                <use xlink:href="Ressources/sprite_css.svg#icon-check-circle">
+                                </use>
+                            </svg>
+                            L’activation des rêves et la capacité de s’en souvenir, de les analyser et interpréter
+                        </li>
+                        <li class="mb-3">
+                            <svg class="checkIcon">
+                                <use xlink:href="Ressources/sprite_css.svg#icon-check-circle">
+                                </use>
+                            </svg>
+                            La faculté de reconnaître les signes du quotidien et de les décoder
+                        </li>
+                        <li class="mb-3">
+                            <svg class="checkIcon">
+                                <use xlink:href="Ressources/sprite_css.svg#icon-check-circle">
+                                </use>
+                            </svg>
+                            L’amélioration de soi par la Connaissance et la compréhension profonde de l’initiation
+                        </li>
+                        <li class="mb-3">
+                            <svg class="checkIcon">
+                                <use xlink:href="Ressources/sprite_css.svg#icon-check-circle">
+                                </use>
+                            </svg>
+                            L’ouverture du cœur et le développement de l’Intelligence Émotionnelle
+                        </li>
+                        <li class="mb-3">
+                            <svg class="checkIcon">
+                                <use xlink:href="Ressources/sprite_css.svg#icon-check-circle">
+                                </use>
+                            </svg>
+                            L’ouverture du troisième œil et le développement des facultés spirituelles
+                        </li>
+                        <li class="mb-3">
+                            <svg class="checkIcon">
+                                <use xlink:href="Ressources/sprite_css.svg#icon-check-circle">
+                                </use>
+                            </svg>
+                            L’amélioration de la santé à tous les plans
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Séparateur image -->
+
+        <section class="claireAngelicaYoga">
+          
+        </section>
+
+        <!-- Les professeurs -->
+
+        <section class="container topSection">
+            <h2 class="text-lg-center my-4 mx-4">
+                Les professeurs d’Angelica Yoga 
+            </h2>
+            <p class="my-5 mx-4 mx-lg-5">
+                Des professeurs de yoga dévoués et accomplis qui portent cette Mission de rendre cette pratique accessible à tous… Pour l’équilibre de l’esprit et du corps dans l’intensité et l’action de nos vies modernes…
+            </p>
+
+            <div class="row justify-content-center">
+                <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4">
+                    <div class="card my-3 mx-sm-0 mx-lg-2">
+                        <img src="Ressources/claire_favres-de-thierrens.png" class="card-img-top w-75 align-self-center" alt="Claire Favres-de-Thierrens, professeur d'Angelica Yoga">
+                        <div class="card-body">
+                            <h3 class="card-title py-2">
+                                Claire Favres-de-Thierrens
+                            </h3>
+                            <p class="card-text">
+                                Claire a toujours aimé offrir son aide, comprendre les autres et se comprendre à travers les autres. Son ouverture d’esprit l’a naturellement guidée, dès ses 18 ans, vers le métier d’infirmière, qu’elle pratique maintenant avec tout son coeur depuis plusieurs années. Durant cette période, elle entra dans un profond cheminement via l’étude de ses rêves et de l’Angelica Yoga.<br>
+                                "J’ai toujours cru que l’être humain avait tout en lui pour se comprendre, s’améliorer et modifier son destin."
+                            </p>
+                        </div>
+                    </div>   
+                </div>
+                <div class="col-sm-8 col-md-6 col-lg-5 col-xl-4">
+                    <div class="card my-3 mb-5 mx-sm-0 mx-lg-2">
+                        <img src="Ressources/thibaut_favres-de-thierrens.png" class="card-img-top  w-75 align-self-center" alt="Thibaut Favres-de-Thierrens, professeur d'Angelica Yoga">
+                        <div class="card-body">
+                            <h3 class="card-title py-2">
+                                Thibaut Favres-de-Thierrens
+                            </h3>
+                            <p class="card-text">
+                                Thibaut, professeur de yoga et othéopathe, est né à Nîmes en France, dans une famille dans laquelle l’abondance était présente à bien des plans, mais la matière était souvent trop à la première place. Jeune, cela lui faisait vivre de profonds décalages.<br>
+                                Sa rencontre avec Claire le fit entrer profondément dans un cheminement initiatique via la pratique de l’Angelica Yoga et l’Angelica mantra qui furent des outils essentiels pour stabiliser ses ouvertures de conscience à ces nouvelles réalités. 
+                            </p>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </section>
+
+        <!-- Séparation image-->
+
+        <section class="imgMeditationDesert">
+
+        </section>
+
+        <!-- Présentation de la tournée-->
+        <section class="container topSection">
+            <h2 class="mb-4 mx-4 mx-md-0 text-center">
+                Atelier "Élève ta conscience à travers tes 5 sens"
+            </h2>
+            <p class="mt-5 mx-4">
+                L’être humain s’interroge ainsi sur toute l’énergie qu’il déploie pour trouver le bonheur et sur le courage qu’il active pour transformer ses peurs en victoires…</p>
+
+            <p class="mx-4">
+                Ces questions n’ont jamais auparavant été aussi présentes que dans notre siècle actuel, où les nouvelles générations ont soif de Connaissances provenant directement de l’âme et où l’Angelica Yoga émerge pour nous offrir de multiples éléments en guise de réponses et des outils de rencontre avec soi-même. </p>
+
+            <p class="mx-4">
+                En 2022, les professeurs français d’Angelica Yoga proposent, lors d’une tournée européenne, de découvrir la pratique de ce yoga initiatique près de chez vous, pendant une journée d’atelier.
+            </p>
+            <div class="d-flex justify-content-center mb-5">
+                <a href="tournee_2022.html" class="yogaBtn btn text-white my-5">
+                    Dates et lieux
+                </a>
+            </div>
+
+        </section>
+        <hr>
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="container d-flex flex-column flex-lg-row align-items-center align-items-lg-start justify-content-lg-between my-3">
+        <p class="my-3">
+            2021 | Tous droits réservés
+        </p>
+        <div class="my-3">
+            <p>
+                Angelica Yoga sur les réseaux sociaux
+            </p>
+            <div class="d-flex justify-content-center py-3">
+                <a href="https://www.facebook.com/AngelicaYogaOfficial/" target="_blank">
+                    <svg id="fbIcon">
+                        <use xlink:href="Ressources/sprite_css.svg#icon-facebook2"></use>
+                    </svg>
+                </a>
+                <a href="https://vimeo.com/ondemand/angelicayoga" target="_blank">
+                    <svg id="vimIcon">
+                        <use xlink:href="Ressources/sprite_css.svg#icon-vimeo2"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <a href="mentions-legales.html" class="text-dark my-md-3">
+            Mentions légales
+        </a>
+
+    </footer>
+
     <!--jQuery-->
     <script src="jquery-3.6.0.min.js"></script>
     <!--Bootstrap JavaScript-->
