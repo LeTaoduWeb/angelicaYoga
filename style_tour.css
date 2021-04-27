@@ -1,0 +1,122 @@
+/* Général */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.yogaBtn {
+    background-color: #d3a700;
+    border-radius: 20px;
+    padding: 10px 40px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.topSection {
+    margin-top: 90px;
+}
+
+/*  Header */
+
+#logoIcon {
+    height: 3rem;
+    width: 3rem;
+    fill: #d3a700;
+}
+
+.thinText {
+    font-weight: 300;
+}
+
+.bandeauTour {
+    width: 100%;
+    height: 40vh;
+    max-height: 600px;
+    background: url('Ressources/yoga_meditation_mer.png');
+    background-position: center;
+    background-size: cover;
+}
+
+/* Infos pratiques */
+
+.bgInfos {
+    padding: 0;
+}
+
+.bgInfosTxt {
+    background-color: rgba(211, 167, 0, 0.15);
+}
+
+.angelicaIcon {
+    width: 2rem;
+    height: 2rem;
+    fill: #d3a700;
+}
+
+.checkIcon {
+    height: 1rem;
+    width: 1rem;
+}
+
+/* Dates et lieux */
+
+.searchIcon {
+    height: 1rem;
+    width: 1rem;
+}
+
+.titleCard {
+    text-decoration: underline;
+    color: #d3a700;
+    font-size: 1.3rem;
+}
+
+.locationIcon {
+    height: 2rem;
+    width: 2rem;
+    fill: #d3a700;
+}
+
+.userIcon {
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: #d3a700;
+}
+
+.dateCard {
+    border-radius: 20px;
+}
+
+.exportIcon {
+    height: 1rem;
+    width: 1rem;
+}
+
+/* Image section */
+
+.imgMeditationYoga {
+    width: 100%;
+    height: 30vh;
+    background: url('Ressources/yoga_coucher_soleil.png');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Ligne footer */
+
+main hr {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+/*  Footer */
+
+#fbIcon,
+#vimIcon {
+    height: 2rem;
+    width: 2rem;
+    fill: #d3a700;
+    margin-right: 10px;
+}

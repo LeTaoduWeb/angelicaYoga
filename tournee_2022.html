@@ -6,13 +6,593 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style_tour.css">
+    <!-- Media Queries -->
+    <link rel="stylesheet" href="media.css">
+    <!-- Custom font Oxygen -->
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet"> 
     <title>Tournée 2022 en France | Angelica Yoga</title>
 </head>
 <body>
+
+    <!-- Navigation -->
     
+        <nav class="navbar navbar-expand-md navbar-light bg-transparent">
+            <a href="index.html" class="navbar-brand">
+                <svg id="logoIcon">
+                    <use xlink:href="Ressources/sprite_css.svg#icon-radio-checked2">
+                    </use>
+                </svg>
+                <span class="text-uppercase text-dark thinText">Angelica Yoga</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mr-1">
+                        <a href="index.html" class="nav-link">Accueil</a>
+                    </li>
+                    <li class="nav-item active mr-1">
+                        <a href="tournee_2022.html" class="nav-link">Évènements</a>
+                    </li>
+                    <li class="nav-item mr-1">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    <!-- Header -->
+
+        <header class="d-flex justify-content-center align-items-center bandeauTour">
+            <h1 class="titlePage thinText text-white text-uppercase">
+                Tournée 2022
+            </h1>
+        </header>
+
+    <!--  Partie principale -->
+        <main>
+            <!-- Présentation atelier -->
+
+                <section class="container topSection">
+                    <h2 class="thinText text-center mb-4 mx-4 mx-md-0">
+                        "Élève ta conscience à travers tes cinq sens"
+                    </h2>
+                    <h3 class="text-center mb-4">
+                        <small>Atelier Angelica Yoga</small>
+                    </h3>
+                    <p class="mt-5 mx-4 mx-md-0">
+                        Cet atelier d’une journée vous permettra d’approfondir l’Angelica Yoga avec des exercices de méditation, de mantras et d’intégration plus avancés qui vous amèneront à transformer vos difficultés, reprogrammer en conscience vos mémoires et à activer votre plein potentiel Divin. 
+                    </p>
+                    <p class="mx-4 mx-md-0">
+                        Cette journée est proposée à tous et à toutes, peu importe votre âge ou votre condition physique.
+                    </p>
+                    <div class="d-flex justify-content-center">
+                        <a class="yogaBtn btn text-white mt-5" href="#dateTour">Dates & lieux</a>
+                    </div>
+                </section>
+
+            <!-- Infos pratiques -->
+
+                <section class="container-fluid bgInfos topSection">
+                    <div class="row d-lg-none">
+                        <img src="Ressources/Yoga_homme_eau.png" alt="Posture de yoga au bord de l'eau" class="img-fluid">
+                    </div>
+                    <div class="row">
+                        <div class="col col-lg-6 col-xl-4 offset-lg-5 offset-xl-7 p-5 my-lg-5 bgInfosTxt">
+                            <h2 class="text-center">
+                                Informations pratiques
+                            </h2>
+                            <div class="d-flex justify-content-center">
+                                <svg class="angelicaIcon my-4">
+                                    <use xlink:href="Ressources/sprite_css.svg#icon-radio-checked2"></use>
+                                </svg>
+                            </div>
+                            <ul class="list-unstyled">
+                                <li class="mb-3 ml-3 mx-md-5"><span class="font-weight-bold">Horaires :</span> 9h -15h</li>
+                                <li class="mb-3 ml-3 mx-md-5"><span class="font-weight-bold">Prix :</span> 75€ adulte - 30€ étudiant</li>
+                                <li class="mb-3 ml-3 mx-md-5"><span class="font-weight-bold">Early bird :</span> -10% sur le tarif jusqu'au 15 décembre 2021</li>
+                                <li class="mb-3 ml-3 mx-md-5"><span class="font-weight-bold">Tarif groupe</span> à partir de 6 personnes</li>
+                            </ul>
+                            <div class="d-flex justify-content-center">
+                                <svg class="angelicaIcon my-4">
+                                    <use xlink:href="Ressources/sprite_css.svg#icon-radio-checked2"></use>
+                                </svg>
+                            </div>
+                            <h3 class="mb-4 ml-3 ml-md-5">
+                                <small class="thinText">Matériel conseillé</small>
+                            </h3>
+                            <ul class="list-unstyled">
+                                <li class="mb-3 ml-3 mx-md-5">
+                                    <svg class="checkIcon">
+                                        <use xlink:href="Ressources/sprite_css.svg#icon-check-circle">
+                                        </use>
+                                    </svg>
+                                    Votre tapis de sol (yoga, gym...) ou une couverture
+                                </li>
+                                <li class="mb-3 mx-3 mx-md-5">
+                                    <svg class="checkIcon">
+                                        <use xlink:href="Ressources/sprite_css.svg#icon-check-circle">
+                                        </use>
+                                    </svg>
+                                    Habits souples (jogging, tee-shirt)
+                                </li>
+                                <li class="mb-3 mx-3 mx-md-5">
+                                    <svg class="checkIcon">
+                                        <use xlink:href="Ressources/sprite_css.svg#icon-check-circle">
+                                        </use>
+                                    </svg>
+                                    Prévoir de l'eau et des éléments nutritifs légers
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+            <!-- Dates et lieux -->
+
+                <section class="topSection" id="dateTour">
+                    <h2 class="text-center mb-4 mx-4">
+                        Dates et lieux des ateliers Angelica Yoga en France
+                    </h2>
+                    <p class="mx-4 mx-md-5 text-lg-center">
+                        Toutes les dates de la tournée 2022 sont disponibles ci-dessous. Vous pouvez effectuer une recherche en indiquant dans le formulaire votre numéro de département…
+                    </p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-10 col-sm-4 col-md-6 col-lg-4 offset-1 offset-md-6 offset-lg-8 input-group my-4">
+                                <input type="text" class="form-control" placeholder="Votre département">
+                                <div class="input-group-append">
+                                    <span class="input-group-text">
+                                        <a href="#">
+                                            <svg class="searchIcon">
+                                                <use xlink:href="Ressources/sprite_css.svg#icon-search"></use>
+                                            </svg>
+                                        </a>
+                                    </span>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container my-5">
+                        <div class="row">
+                            <div class="col-10 col-md-6 col-lg-4 offset-1 offset-md-0 mb-3">
+                                <div class="dateCard border py-4 px-3">      
+                                    <p class="text-muted thinText text-uppercase text-center my-3">
+                                        Perpignan Rivesaltes (66)
+                                    </p>
+                                    <p class="titleCard lead text-center mb-5">
+                                        Samedi 10 février
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-3"> 
+                                            <div class="d-flex flex-column align-items-center">
+                                                <svg class="locationIcon">
+                                                    <use xlink:href="Ressources/sprite_css.svg#icon-location-pin"></use>
+                                                </svg>
+                                                <p class="text-center mt-2">
+                                                    Hôtel Campanile Nord<br>
+                                                    Rond-Point du Péage Nord
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li class="pb-2"> 
+                                            <div class="d-flex flex-column align-items-center">
+                                                <svg class="userIcon">
+                                                    <use xlink:href="Ressources/sprite_css.svg#icon-user"></use>
+                                                </svg>
+                                                <p class="text-center mt-2">
+                                                    Elisabeth : 06 12 34 56 78
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <a class="btn btn-link btn-block text-dark font-weight-bold" type="button" href="https://www.facebook.com/pg/AngelicaYogaOfficial/events" target="_blank">
+                                        M'inscrire
+                                        <svg class="exportIcon">
+                                            <use xlink:href="Ressources/sprite_css.svg#icon-export"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-10 col-md-6 col-lg-4 offset-1 offset-md-0 mb-3">
+                                <div class="dateCard border py-4 px-3">      
+                                    <p class="text-muted thinText text-uppercase text-center my-3">
+                                        Montpellier (34)
+                                    </p>
+                                    <p class="titleCard lead text-center mb-5">
+                                        Dimanche 11 février
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-3"> 
+                                            <div class="d-flex flex-column align-items-center">
+                                                <svg class="locationIcon">
+                                                    <use xlink:href="Ressources/sprite_css.svg#icon-location-pin"></use>
+                                                </svg>
+                                                <p class="text-center mt-2">
+                                                    Novotel Montpellier<br>
+                                                    125 avenue de Palavas
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li class="pb-2"> 
+                                            <div class="d-flex flex-column align-items-center"> 
+                                                <svg class="userIcon">
+                                                    <use xlink:href="Ressources/sprite_css.svg#icon-user"></use>
+                                                </svg>
+                                                <p class="text-center mt-2">
+                                                    Sébastian : 06 12 34 56 78
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <a class="btn btn-link btn-block text-dark font-weight-bold" type="button" href="https://www.facebook.com/pg/AngelicaYogaOfficial/events" target="_blank">
+                                        M'inscrire
+                                        <svg class="exportIcon">
+                                            <use xlink:href="Ressources/sprite_css.svg#icon-export"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="col-10 col-md-6 col-lg-4 offset-1 offset-md-0 mb-3">
+                                <div class="dateCard border py-4 px-3">      
+                                    <p class="text-muted thinText text-uppercase text-center my-3">
+                                        Lons (64)
+                                    </p>
+                                    <p class="titleCard lead text-center mb-5">
+                                        Dimanche 25 mars
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-3"> 
+                                            <div class="d-flex flex-column align-items-center">
+                                                <svg class="locationIcon">
+                                                    <use xlink:href="Ressources/sprite_css.svg#icon-location-pin"></use>
+                                                </svg>
+                                                <p class="text-center mt-2">
+                                                    Hôtel Restaurant Le Relais<br>
+                                                    Rue de Strasbourg
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li class="pb-2"> 
+                                            <div class="d-flex flex-column align-items-center">
+                                                <svg class="userIcon">
+                                                    <use xlink:href="Ressources/sprite_css.svg#icon-user"></use>
+                                                </svg>
+                                                <p class="text-center mt-2">
+                                                    Ghislaine : 06 12 34 56 78
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <a class="btn btn-link btn-block text-dark font-weight-bold" type="button" href="https://www.facebook.com/pg/AngelicaYogaOfficial/events" target="_blank">
+                                        M'inscrire
+                                        <svg class="exportIcon">
+                                            <use xlink:href="Ressources/sprite_css.svg#icon-export"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-10 col-md-6 col-lg-4 offset-1 offset-md-0 mb-3">
+                                <div class="dateCard border py-4 px-3">      
+                                    <p class="text-muted thinText text-uppercase text-center my-3">
+                                        Avignon (84)
+                                    </p>
+                                    <p class="titleCard lead text-center mb-5">
+                                        Samedi 14 avril
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-3"> 
+                                            <div class="d-flex flex-column align-items-center">
+                                                <svg class="locationIcon">
+                                                    <use xlink:href="Ressources/sprite_css.svg#icon-location-pin"></use>
+                                                </svg>
+                                                <p class="text-center mt-2">
+                                                    Hôtel Kyriad Courtine Gare<br>
+                                                    2 rue Mère Teresa
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li class="pb-2"> 
+                                            <div class="d-flex flex-column align-items-center">
+                                                <svg class="userIcon">
+                                                    <use xlink:href="Ressources/sprite_css.svg#icon-user"></use>
+                                                </svg>
+                                                <p class="tex-center mt-2">
+                                                    Marie : 06 12 34 56 78
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <a class="btn btn-link btn-block text-dark font-weight-bold" type="button" href="https://www.facebook.com/pg/AngelicaYogaOfficial/events" target="_blank">
+                                        M'inscrire
+                                        <svg class="exportIcon">
+                                            <use xlink:href="Ressources/sprite_css.svg#icon-export"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-10 col-md-6 col-lg-4 offset-1 offset-md-0 mb-3">
+                                <div class="dateCard border py-4 px-3">      
+                                    <p class="text-muted thinText text-uppercase text-center my-3">
+                                        Mérignac (33)
+                                    </p>
+                                    <p class="titleCard lead text-center mb-5">
+                                        Dimanche 20 mai
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-3"> 
+                                            <div class="d-flex flex-column align-items-center">
+                                                <svg class="locationIcon">
+                                                    <use xlink:href="Ressources/sprite_css.svg#icon-location-pin"></use>
+                                                </svg>
+                                                <p class="text-center  mt-2">
+                                                    Inter Hôtel du Phare<br>
+                                                    3 rue des Chataigniers
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li class="pb-2"> 
+                                            <div class="d-flex flex-column align-items-center">
+                                                <svg class="userIcon">
+                                                    <use xlink:href="Ressources/sprite_css.svg#icon-user"></use>
+                                                </svg>
+                                                <p class="mt-2">
+                                                    Michelle : 06 12 34 56 78
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <a class="btn btn-link btn-block text-dark font-weight-bold" type="button" href="https://www.facebook.com/pg/AngelicaYogaOfficial/events" target="_blank">
+                                        M'inscrire
+                                        <svg class="exportIcon">
+                                            <use xlink:href="Ressources/sprite_css.svg#icon-export"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-10 col-md-6 col-lg-4 offset-1 offset-md-0 mb-3">
+                                <div class="dateCard border py-4 px-3">      
+                                    <p class="text-muted thinText text-uppercase text-center my-3">
+                                        Roubaix (59)
+                                    </p>
+                                    <p class="titleCard lead text-center mb-5">
+                                        Samedi 18 novembre
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-3"> 
+                                            <div class="d-flex flex-column align-items-center">
+                                                <svg class="locationIcon">
+                                                    <use xlink:href="Ressources/sprite_css.svg#icon-location-pin"></use>
+                                                </svg>
+                                                <p class="text-center mt-2">
+                                                    Hôtel Campanile Lille Nord<br>
+                                                    36 rue Communauté Urbaine
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li class="pb-2"> 
+                                            <div class="d-flex flex-column align-items-center">
+                                                <svg class="userIcon">
+                                                    <use xlink:href="Ressources/sprite_css.svg#icon-user"></use>
+                                                </svg>
+                                                <p class="mt-2">
+                                                    Valérie : 06 12 34 56 78
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <a class="btn btn-link btn-block text-dark font-weight-bold" type="button" href="https://www.facebook.com/pg/AngelicaYogaOfficial/events" target="_blank">
+                                        M'inscrire
+                                        <svg class="exportIcon">
+                                            <use xlink:href="Ressources/sprite_css.svg#icon-export"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-10 col-md-6 col-lg-4 offset-1 offset-md-0 mb-3">
+                                <div class="dateCard border py-4 px-3">      
+                                    <p class="text-muted thinText text-uppercase text-center my-3">
+                                        Maisons-Lafitte (78)
+                                    </p>
+                                    <p class="titleCard lead text-center mb-5">
+                                        Dimanche 19 décembre
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-3"> 
+                                            <div class="d-flex flex-column align-items-center">
+                                                <svg class="locationIcon">
+                                                    <use xlink:href="Ressources/sprite_css.svg#icon-location-pin"></use>
+                                                </svg>
+                                                <p class="text-center mt-2">
+                                                    Salle René-Sim Lacaze<br>
+                                                    24 rue du Mesnil
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li class="pb-2"> 
+                                            <div class="d-flex flex-column align-items-center">
+                                                <svg class="userIcon">
+                                                    <use xlink:href="Ressources/sprite_css.svg#icon-user"></use>
+                                                </svg>
+                                                <p class="mt-2">
+                                                    Hélène : 06 12 34 56 78
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <a class="btn btn-link btn-block text-dark font-weight-bold" type="button" href="https://www.facebook.com/pg/AngelicaYogaOfficial/events" target="_blank">
+                                        M'inscrire
+                                        <svg class="exportIcon">
+                                            <use xlink:href="Ressources/sprite_css.svg#icon-export"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-10 col-md-6 col-lg-4 offset-1 offset-md-0 mb-3">
+                                <div class="dateCard border py-4 px-3">      
+                                    <p class="text-muted thinText text-uppercase text-center my-3">
+                                        Quimper (29)
+                                    </p>
+                                    <p class="titleCard lead text-center mb-5">
+                                        Samedi 16 décembre
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-3"> 
+                                            <div class="d-flex flex-column align-items-center">
+                                                <svg class="locationIcon">
+                                                    <use xlink:href="Ressources/sprite_css.svg#icon-location-pin"></use>
+                                                </svg>
+                                                <p class="text-center mt-2">
+                                                    Brit Hôtel Le Kerodet<br>
+                                                    Rond-Point de Kerourvois
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li class="pb-2"> 
+                                            <div class="d-flex flex-column align-items-center">
+                                                <svg class="userIcon">
+                                                    <use xlink:href="Ressources/sprite_css.svg#icon-user"></use>
+                                                </svg>
+                                                <p class="mt-2">
+                                                    Christophe : 06 12 34 56 78
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <a class="btn btn-link btn-block text-dark font-weight-bold" type="button" href="https://www.facebook.com/pg/AngelicaYogaOfficial/events" target="_blank">
+                                        M'inscrire
+                                        <svg class="exportIcon">
+                                            <use xlink:href="Ressources/sprite_css.svg#icon-export"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-10 col-md-6 col-lg-4 offset-1 offset-md-0 mb-3">
+                                <div class="dateCard border py-4 px-3">      
+                                    <p class="text-muted thinText text-uppercase text-center my-3">
+                                        Rennes (35)
+                                    </p>
+                                    <p class="titleCard lead text-center mb-5">
+                                        Dimanche 17 décembre
+                                    </p>
+                                    <ul class="list-unstyled">
+                                        <li class="pb-3"> 
+                                            <div class="d-flex flex-column align-items-center">
+                                                <svg class="locationIcon">
+                                                    <use xlink:href="Ressources/sprite_css.svg#icon-location-pin"></use>
+                                                </svg>
+                                                <p class="text-center mt-2">
+                                                    Inter Hôtel Les 3 Marches<br>
+                                                    ZI Route de Lorient
+                                                </p>
+                                            </div>
+                                        </li>
+
+                                        <li class="pb-2"> 
+                                            <div class="d-flex flex-column align-items-center">
+                                                <svg class="userIcon">
+                                                    <use xlink:href="Ressources/sprite_css.svg#icon-user"></use>
+                                                </svg>
+                                                <p class="mt-2">
+                                                    Danielle : 06 12 34 56 78
+                                                </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                    <a class="btn btn-link btn-block text-dark font-weight-bold" type="button" href="https://www.facebook.com/pg/AngelicaYogaOfficial/events" target="_blank">
+                                        M'inscrire
+                                        <svg class="exportIcon">
+                                            <use xlink:href="Ressources/sprite_css.svg#icon-export"></use>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </section>
+
+            <!-- Section image -->
+                <section class="imgMeditationYoga topSection">
+
+                </section>
+
+            <!-- Contact Date Atelier -->
+
+                <section class=" container topSection">
+                    <h2 class="text-center mb-4 mx-5 mx-md-0">
+                        Vous ne trouvez pas de date près de chez vous ?
+                    </h2>
+                    <p class="lead text-center mx-4 mx-md-0">
+                        Organisons un atelier d’Angelica Yoga dans votre région.
+                    </p>
+                    <div class="d-flex justify-content-center">
+                        <a href="contact.html" class="yogaBtn btn text-white my-5">
+                            Contactez-nous
+                        </a>
+                    </div>
+                </section>  
+        </main>
+
+    <!-- Pied de page -->
+        <hr>
+        <footer class="container d-flex flex-column flex-lg-row align-items-center align-items-lg-start justify-content-lg-between my-3">
+            <p class="my-3">
+                2021 | Tous droits réservés
+            </p>
+            <div class="my-3">
+                <p>
+                    Angelica Yoga sur les réseaux sociaux
+                </p>
+                <div class="d-flex justify-content-center py-3">
+                    <a href="https://www.facebook.com/AngelicaYogaOfficial/" target="_blank">
+                        <svg id="fbIcon">
+                            <use xlink:href="Ressources/sprite_css.svg#icon-facebook2"></use>
+                        </svg>
+                    </a>
+                    <a href="https://vimeo.com/ondemand/angelicayoga" target="_blank">
+                        <svg id="vimIcon">
+                            <use xlink:href="Ressources/sprite_css.svg#icon-vimeo2"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <a href="mentions-legales.html" class="text-dark my-md-3">
+                Mentions légales
+            </a>
+        </footer>
+  
     <!--jQuery-->
-    <script src="jquery-3.6.0.min.js"></script>
+        <script src="jquery-3.6.0.min.js"></script>
     <!--Bootstrap JavaScript-->
-    <script src="bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
