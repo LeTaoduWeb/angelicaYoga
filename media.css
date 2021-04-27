@@ -1,0 +1,160 @@
+@media screen and (max-width: 375px) {
+    .lead {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    /* Accueil */
+
+    .navbar-brand > span {
+        display: none;
+    }
+
+    #logoIcon {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .hero-header {
+        height: 100vh;
+    }
+
+    .txtHeader {
+        padding-top: 25vh;
+    }
+
+    /* Tournée 2022 */
+
+    .bandeauTour {
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Contact */
+
+    .sizeImg {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /* Tournée 2022 */
+
+    .bandeauTour {
+        height: 30vh;
+    }
+
+    /* Contact */
+
+    .sizeImg {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    /* Accueil */
+
+    .hero-header {
+        height: 100vh;
+    }
+
+    .txtHeader {
+        padding-top: 40vh;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* Général */
+
+    p,
+    li,
+    a {
+        font-size: 18px;
+    }
+
+    .lead {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 3.2rem;
+    }
+
+    /* Accueil */
+
+    .bgBienfaits {
+        border-radius: 20px;
+    }
+
+    /* Tournée 2022 */
+
+    .bgInfos {
+        width: 100%;
+        background: url('Ressources/Yoga_homme_eau.png');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .bgInfosTxt {
+        border-radius: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    /* Accueil */
+
+    .hero-header {
+        height: 80vh;
+    }
+
+    .txtHeader {
+        padding-top: 30vh;
+    }
+
+    .claireAngelicaYoga {
+        height: 25vh;
+    }
+
+    .imgMeditationDesert {
+        height: 25vh;
+    }
+
+    /* Tournée 2022 */
+
+    .bandeauTour {
+        height: 25vh;
+    }
+
+    .imgMeditationYoga {
+        height: 25vh;
+    }
+
+    /* Contact */
+
+        .sizeImg {
+            width: 110%;
+        }
+}
+
+@media screen and (min-width: 1200px) {
+    /*  Tournée 2022 */
+
+    .imgMeditationDesert {
+        height: 50vh;
+        background-position: 50% 60%;
+    }
+
+    /* Accueil */
+
+    .claireAngelicaYoga {
+        height: 40vh;
+    }
+
+    .imgMeditationYoga {
+        height: 45vh;
+    }
+}
