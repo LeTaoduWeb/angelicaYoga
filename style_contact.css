@@ -1,0 +1,43 @@
+/* Général */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.yogaBtnOutlined {
+    background-color: #fff;
+    color: #d3a700;
+    border: 1px solid #d3a700;
+    border-radius: 20px;
+    padding: 10px 40px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.topSection {
+    margin-top: 60px;
+}
+
+/*  Header */
+
+#logoIcon {
+    height: 3rem;
+    width: 3rem;
+    fill: #d3a700;
+}
+
+.thinText {
+    font-weight: 300;
+}
+
+/*  Footer */
+
+#fbIcon,
+#vimIcon {
+    height: 2rem;
+    width: 2rem;
+    fill: #d3a700;
+    margin-right: 10px;
+}
