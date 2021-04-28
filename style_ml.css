@@ -1,0 +1,74 @@
+/* Général */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.topSection {
+    margin-top: 60px;
+}
+
+.thinText {
+    font-weight: 300;
+}
+
+a {
+    color: #d3a700;
+}
+
+/* Navigation retour en haut */
+
+.topBtn {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #d3a700;
+    border-radius: 10px;
+    bottom: 20px;
+    right: 20px;
+}
+
+.topArrow {
+    width: 1.5rem;
+    height: 1.8rem;
+    fill: #fff;
+}
+
+/* Header */
+
+#logoIcon {
+    height: 3rem;
+    width: 3rem;
+    fill: #d3a700;
+}
+
+/* Partie principale */
+
+.checkIcon {
+    height: 1rem;
+    width: 1rem;
+}
+
+.userIcon {
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: #d3a700;
+}
+
+/* Ligne */
+
+hr {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+/*  Footer */
+
+#fbIcon,
+#vimIcon {
+    height: 2rem;
+    width: 2rem;
+    fill: #d3a700;
+    margin-right: 10px;
+}
