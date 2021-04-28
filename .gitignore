@@ -1,3 +1,8 @@
 #Exclusion des fichiers Ds_Store
 *.DS_Store
 
+#Exclusion fichier vérification stylelint
+.stylelintrc.json
+
+#Exclusion fichier txt
+*.txt
