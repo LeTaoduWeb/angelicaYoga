@@ -41,6 +41,23 @@ body {
     padding-top: 30vh;
 }
 
+/* Navigation retour en haut */
+
+.topBtn {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #d3a700;
+    border-radius: 10px;
+    bottom: 20px;
+    right: 20px;
+}
+
+.topArrow {
+    width: 1.5rem;
+    height: 1.8rem;
+    fill: #fff;
+}
+
 /* Présentation */
 
 .bgBienfaits {
