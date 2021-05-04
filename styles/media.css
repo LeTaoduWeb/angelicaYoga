@@ -42,7 +42,7 @@
 
     /* Mentions légales */
 
-    .sitePolicy h2 {
+   .sitePolicy h2 {
         font-size: 1.5rem;
     }
 }
@@ -76,7 +76,7 @@
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     /* Accueil */
 
     .hero-header {
@@ -88,7 +88,7 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 993px) {
     /* Général */
 
     p,
@@ -115,7 +115,7 @@
 
     .bgInfos {
         width: 100%;
-        background: url('Ressources/Yoga_homme_eau.png');
+        background: url('../Ressources/Yoga_homme_eau.png');
         background-position: center;
         background-size: cover;
     }
@@ -137,21 +137,17 @@
     }
 
     .claireAngelicaYoga {
-        height: 25vh;
+        height: 35vh;
     }
 
     .imgMeditationDesert {
-        height: 25vh;
+        height: 35vh;
     }
 
     /* Tournée 2022 */
 
-    .bandeauTour {
-        height: 25vh;
-    }
-
     .imgMeditationYoga {
-        height: 25vh;
+        height: 35vh;
     }
 
     /* Contact */
@@ -161,7 +157,7 @@
         }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1201px) {
     /*  Tournée 2022 */
 
     .imgMeditationDesert {
@@ -176,6 +172,6 @@
     }
 
     .imgMeditationYoga {
-        height: 45vh;
+        height: 40vh;
     }
 }
