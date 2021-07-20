@@ -1,0 +1,2 @@
+//Message d'accueil
+alert("Bonjour, vous allez découvrir un site que j'ai conçu et développé pour une évaluation de la formation Développeur web et web mobile. Les dates contenues dans le présent site sont purement fictives... Belle découverte !")
