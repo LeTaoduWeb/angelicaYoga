@@ -18,7 +18,7 @@
 
 <!-- Header -->
 
-    <header class="hero-header" id="topPage">
+    <header class="hero-header">
 
     <!-- Navigation -->
 
@@ -55,13 +55,12 @@
                 </ul>
             </div>
         </nav>
-        <div class="topBtn position-fixed d-flex justify-content-center align-items-center">
-            <a href="#topPage">
+        <!-- Bouton vers le haut -->
+        <button onclick="topFunction()" id="topBtn">
                 <svg class="topArrow">
                     <use xlink:href="Ressources/sprite_css.svg#icon-arrow-up2"></use>
                 </svg>
-            </a>
-        </div>
+        </button>
 
     <!-- Hero-->
 
@@ -268,5 +267,8 @@
     <script src="jquery-3.6.0.min.js"></script>
     <!--Bootstrap JavaScript-->
     <script src="bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript personnalisé -->
+    <script src="app.js"></script>
+    <script src="message.js"></script>
 </body>
 </html>
