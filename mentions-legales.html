@@ -41,13 +41,12 @@
                 </ul>
             </div>
         </nav>
-        <div class="topBtn position-fixed d-flex justify-content-center align-items-center">
-            <a href="#topPage">
-                <svg class="topArrow">
-                    <use xlink:href="Ressources/sprite_css.svg#icon-arrow-up2"></use>
-                </svg>
-            </a>
-        </div>
+         <!-- Bouton vers le haut -->
+         <button onclick="topFunction()" id="topBtn">
+            <svg class="topArrow">
+                <use xlink:href="Ressources/sprite_css.svg#icon-arrow-up2"></use>
+            </svg>
+        </button>
         <hr>
 
     <!-- Header -->
@@ -107,23 +106,23 @@
             </h2>
             <ul class="list-unstyled ml-4 pt-3 pb-4 pb-sm-5">
                 <li>
-                    GITHUB INC.
+                    INFOMANIAK
                 </li>
                 <li>
-                    88 Colin P. Kelly Jr. Street
+                    25 Eugène-Marziano
                 </li>
                 <li>
-                    San Francisco, CA 94107
+                    1227 Les Acacias
                 </li>
                 <li>
-                    USA
+                    Genève ⎢Suisse
                 </li>
                 <li class="my-3">
-                    Téléphone : + 1-xxx-xxx-xxx
+                    Téléphone : + 41 22 820 35 44
                 </li>
                 <li>
-                    <a href="https://pages.github.com/" class="" target="_blank">
-                        https://www.pages.github.com/
+                    <a href="https://www.infomaniak.com/fr/hebergement/web-et-mail/hebergement-web?utm_term=5c8680fb5a04d" class="" target="_blank">
+                        https://infomaniak.com/fr
                     </a>
                 </li>
             </ul>
@@ -237,5 +236,7 @@
     <script src="jquery-3.6.0.min.js"></script>
     <!--Bootstrap JavaScript-->
     <script src="bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript personnalisé -->
+    <script src="app.js"></script>
 </body>
 </html>
