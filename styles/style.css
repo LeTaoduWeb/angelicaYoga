@@ -43,19 +43,35 @@ body {
 
 /* Navigation retour en haut */
 
-.topBtn {
+#topBtn {
+    display: none;
     width: 2.5rem;
     height: 2.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
     background-color: #d3a700;
     border-radius: 10px;
+    position: fixed;
     bottom: 20px;
     right: 20px;
+    z-index: 999;
+    padding: .3rem;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+#topBtn:hover {
+    background-color: #fff;
 }
 
 .topArrow {
     width: 1.5rem;
     height: 1.8rem;
     fill: #fff;
+}
+
+.topArrow:hover {
+    fill:#d3a700;
 }
 
 /* Présentation */
